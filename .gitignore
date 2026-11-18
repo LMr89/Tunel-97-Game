@@ -1,0 +1,9 @@
+node_modules/
+dist/
+
+/resources/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art.zip
+/resources/explosion-fx-free-assets.zip
+/resources/free-footsoldier-asset-pack.zip
+/resources/craftpix-net-507107-free-soldier-sprite-sheets-pixel-art/*
+/resources/explosion-fx-free-assets/explosion-fx-free/*
+/resources/free-footsoldier-asset-pack/*

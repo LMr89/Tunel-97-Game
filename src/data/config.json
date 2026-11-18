@@ -1,0 +1,72 @@
+{
+  "titulo": "TÚNEL 97",
+  "subtitulo": "UNA MISIÓN DE SIGILO BAJO TIERRA",
+  "curso": "Video Juegos",
+  "ciclo": "2026-II",
+  "universidad": "UTP",
+  "docente": "Nombre del docente",
+  "integrantes": [
+    {
+      "nombre": "Integrante 1",
+      "rol": "Programación"
+    },
+    {
+      "nombre": "Integrante 2",
+      "rol": "Diseño de niveles"
+    },
+    {
+      "nombre": "Integrante 3",
+      "rol": "Arte y sonido"
+    }
+  ],
+  "mando": {
+    "zonaMuerta": 0.2,
+    "ejes": {
+      "moverX": 0,
+      "moverY": 1,
+      "apuntarX": 2,
+      "apuntarY": 3
+    },
+    "botones": {
+      "disparar": [
+        7,
+        0
+      ],
+      "recargar": [
+        2
+      ],
+      "interactuar": [
+        1
+      ],
+      "sigilo": [
+        4
+      ],
+      "escudo": [
+        6
+      ],
+      "piedra": [
+        3
+      ],
+      "pausa": [
+        9
+      ]
+    }
+  },
+  "efectos": {
+    "sacudida": true,
+    "particulas": true,
+    "sonido": true
+  },
+  "voz": {
+    "umbralHz": 165,
+    "segundos": 3
+  },
+  "personaje": {
+    "M": {
+      "tint": null
+    },
+    "F": {
+      "tint": "0xd98cb3"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Prueba de mando</title>
+<body style="font:16px monospace;background:#2B1D14;color:#D9C3A0;padding:16px">
+<p>Pulsa un botón del mando. Anota los números de los botones y ejes y ponlos en <code>src/data/config.json</code> → <code>mando</code>.</p>
+<pre id="o">Sin mando detectado…</pre>
+<script>
+setInterval(() => {
+  const g = [...navigator.getGamepads()].find((x) => x && x.connected);
+  if (!g) return;
+  const b = g.buttons.map((x, i) => (x.pressed ? `[${i}]` : ` ${i} `)).join('');
+  const a = g.axes.map((v, i) => `eje ${i}: ${v.toFixed(2)}`).join('\n');
+  o.textContent = `${g.id}\nmapping: "${g.mapping}"\n\nbotones (entre [] = pulsado):\n${b}\n\n${a}`;
+}, 50);
+</script>

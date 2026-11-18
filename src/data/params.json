@@ -1,0 +1,76 @@
+{
+  "player": {
+    "walkSpeed": 3.5,
+    "sneakSpeed": 1.8,
+    "hp": 100,
+    "animRef": {
+      "run": 112,
+      "walk": 58
+    }
+  },
+  "guard": {
+    "patrolSpeed": 1.5,
+    "coneDeg": 60,
+    "range": 4,
+    "fillNear": 1.5,
+    "fillFar": 3,
+    "sneakFactor": 0.6,
+    "drain": 0.5,
+    "chaseSpeed": 2.2,
+    "loseSecs": 3
+  },
+  "bullet": {
+    "speed": 16,
+    "range": 9,
+    "cooldown": 0.35,
+    "damage": 1
+  },
+  "guardHp": 3,
+  "interactSeconds": 2,
+  "ammo": {
+    "mag": 12,
+    "reserve": 36,
+    "reloadSecs": 1.2
+  },
+  "ruido": {
+    "caminar": 2,
+    "barricada": 5,
+    "piedra": 6
+  },
+  "piedras": {
+    "cantidad": 3,
+    "alcance": 6
+  },
+  "cuchillero": {
+    "speed": 3.2,
+    "damage": 15,
+    "cooldown": 0.8,
+    "reach": 26
+  },
+  "granada": {
+    "cada": 3.5,
+    "vuelo": 0.7,
+    "mecha": 1.2,
+    "radio": 2.2,
+    "damage": 40,
+    "distMin": 3
+  },
+  "bomba": {
+    "radio": 2.5,
+    "damage": 50,
+    "mecha": 1.5,
+    "disparo": 1.2
+  },
+  "escudo": {
+    "durabilidad": 60,
+    "lento": 0.7,
+    "arcoCos": 0.3,
+    "factorExplosion": 0.5,
+    "golpe": 15
+  },
+  "botiquin": 40,
+  "noche": {
+    "oscuridad": 0.88,
+    "luz": 4.5
+  }
+}
